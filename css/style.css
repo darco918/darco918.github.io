@@ -9953,7 +9953,7 @@ body.active .mscroll {
     display: flex;
     align-items: start;
     justify-content: center;
-    margin-bottom: 5rem;    
+    margin-bottom: 3rem;    
     background-color: #eaeaea;
 }
 .portfolio-item:last-child{
