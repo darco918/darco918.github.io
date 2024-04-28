@@ -238,7 +238,7 @@ button {
 .bg-light {
     background-color: #fefeff !important;
     box-shadow: 0px 0px 10px 0px;
-    border-top: 45px solid #333a44;
+    /* border-top: 45px solid #333a44; */
 }
 .navbar-light .navbar-nav .nav-link {
     color: #24292f;
