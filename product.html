@@ -35,80 +35,10 @@
 
 <body>
     <!-- header section start -->
-    <div class="header_section">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="logo"><a href="index.html"><img src="images/logo-no-background.png"></a></div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">ABOUT</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="product.html">OUR GAMES</a>
-                    </li>
-                    <!-- <li class="nav-item">
-                  <a class="nav-link" href="video.html">BOARD GAMES</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="remot.html">REMOT CONTROL</a>
-                </li> -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">CONTACT US</a>
-                    </li>
-                    <!-- <li class="nav-item active">
-                  <a class="nav-link" href="#">SIGN IN</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">REGISTER</a>
-                </li> -->
-                </ul>
-            </div>
-        </nav>
-    </div>
+    <div w3-include-html="components/header.html"></div>
     <!-- header section end -->
+
     <!-- product section start -->
-    <!-- <div class="product_section layout_padding"> -->
-    <!-- <div class="container"> -->
-    <!-- <div class="product_text">Our <span style="color: #5ca0e9;">BOARD GAMES</span></div> -->
-    <!-- <p class="long_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem</p> -->
-    <!-- <div class="product_section_2"> -->
-    <!-- <div class="row">
-          <div class="col-md-6">
-            <div class="image_2"><img src="images/img-2_greenagenda.png"></div>
-             <div class="price_text">Green Agenda  span style="color: #3a3a38;">200</span></div> -->
-    <!-- <h1 class="game_text">Infiltration Game</h1>
-            <p class="long_text">Welcome to Green Agenda: Infiltration Edition, a thrilling board game where players must
-              work together to overcome the challenges of climate change while uncovering a hidden
-              saboteur in their midst. In this game, players take on the roles of household members
-              striving to achieve sustainability in the face of environmental threats. But beware, one player
-              secretly takes on the role of the Intruders, whose goal is to sabotage the household's efforts
-              without being caught.</p>
-          </div>
-          <div class="see_main">
-            <div class="see_bt"><a target="_blank" href="https://drive.google.com/drive/folders/1uZbKuSlDIUvDi_Ywpsb9KMeOxS0ht2gX?usp=drive_link">Download</a></div> -->
-    <!-- </div> -->
-
-    <!-- <div class="col-md-6">
-            <div class="image_2"><img src="images/img-2_ecodebate.png"></div>
-            <div class="price_text">ECO-DEBATE <span style="color: #3a3a38;">300</span></div>
-            <h1 class="game_text">Mafia Game</h1>
-            <p class="long_text">In this strategic board game, players must navigate the critical decisions surrounding climate change. Will you strive to save the world or exploit it for profit? The fate of the planet rests in the hands of the president and politicians, whose choices are influenced by scientists, CEOs, activists, and businessmen. Through intense debates, policy decisions, and clever maneuvering, players must vie for power and influence to shape the future of humanity. Will you lead with integrity or succumb to corruption? The choice is yours in this thrilling game of global consequences.</p>
-            <div class="see_main">
-              <div class="see_bt"><a target="_blank" href="https://drive.google.com/drive/folders/1uZbKuSlDIUvDi_Ywpsb9KMeOxS0ht2gX?usp=drive_link">Download</a></div>
-            </div>
-          </div>
-           -->
-    <!-- </div>
-      </div> -->
-
-    </div>
     <div class="product_section layout_padding">
         <div class="container">
             <div class="product_text">Our <span style="color: #5ca0e9;">Games</span></div>
@@ -124,9 +54,13 @@
                         <div class="image_2"><img src="images/img-2_ecodebate.png"></div>
                         <div class="price_text">ECO-DEBATE </div>
 
-                        <p class="long_text">ECO-DEBATE is mafia type of game, with the objective to either destroy the
-                            world or save it from climate change. The fate of
-                            the world is determined by the president...</p>
+                        <p class="long_text">In this gripping mafia-style board game, players take on the roles of key
+                            influencers in the battle against climate change. As the president, they must navigate the
+                            murky waters of politics, deciding between supporting activists or aligning with the mafia's
+                            interests. Through intense debates and strategic maneuvers, players vie for control, tipping
+                            the scales in favor of their chosen faction. With each decision, the fate of the world hangs
+                            in the balance, making every move crucial in determining whether salvation or destruction
+                            awaits.</p>
                         <div class="see_main">
                             <div class="see_bt"><a target="_blank"
                                     href="https://drive.google.com/drive/folders/1AuXZu0aQ7RKEttGFwE5UhL1fWR9qH_Y1?usp=drive_link">Download</a>
@@ -136,10 +70,12 @@
                     <div class="col-md-6">
                         <div class="image_2"><img src="images/img-2_greenagenda.png"></div>
                         <div class="price_text">Green Agenda: Infiltration Edition </div>
-                        <p class="long_text">Welcome to Green Agenda: Infiltration Edition, a thrilling board game where
-                            players must
-                            work together to overcome the challenges of climate change while uncovering a hidden
-                            saboteur in their midst...
+                        <p class="long_text">Welcome to Green Agenda: Infiltration Edition, where players navigate the
+                            complexities of climate change as household members striving for sustainability. Each player
+                            works together to overcome environmental challenges, but hidden among them is an Intruder
+                            whose mission is to sabotage their efforts. With strategic cooperation and keen observation,
+                            players must root out the saboteur before their eco-friendly plans are derailed. Will you
+                            save the planet or succumb to sabotage in this high-stakes battle for sustainability?
                         </p>
                         <div class="see_main">
                             <div class="see_bt"><a target="_blank"
@@ -151,8 +87,11 @@
                 <div class="col-md-6">
                     <div class="image_2"><img src="images/img-1.png"></div>
                     <div class="price_text">Save The Island </div>
-                    <p class="long_text">You live on a beautiful island that's a risk of sinking into the sea due to
-                        climate change. Your mission is to save your home through the strategic...
+                    <p class="long_text">"Save the Island!" is a thrilling board game where players face the challenge
+                        of rescuing their beloved island from sinking into the sea amidst the perils of climate change.
+                        As the waters rise, strategic decision-making becomes paramount in the race against time. Every
+                        move counts as players navigate through tough choices to safeguard their home. Will you emerge
+                        victorious and save the island, or succumb to the relentless flood?
                     </p>
                     <div class="see_main">
                         <div class="see_bt"><a target="_blank"
@@ -162,30 +101,13 @@
                 </div>
             </div>
         </div>
-
     </div>
-    </div>
-    <!-- </div> -->
     <!-- product section end -->
-    <!-- footer section start -->
-    <div class="section_footer" style="padding: 0; padding-bottom: 1rem; margin-top: 0.75rem;">
-        <div class="container">
-            <p class="copyright_text">
-                Copyright 2024 All Right Reserved By Quantum Leap
-            </p>
-        </div>
-        <div class="erasmus_logo" style="display: flex;width: 100%;justify-content: center;"><img
-                src="images/erasmus_logo.png" width="20%"></div>
-        <div class="social_icon">
-            <a target="_blank"
-                href="https://m.facebook.com/people/Quantum-Leap-NGO-Luxembourg/100068446113460/?locale=ms_MY"><img
-                    src="images/fb-icon.png" /></a>
-        </div>
-    </div>
-    <!-- footer section end -->
-    <!-- copyright section start -->
 
-    <!-- copyright section end -->
+    <!-- footer section start -->
+    <div w3-include-html="components/footer.html"></div>
+    <!-- footer section end -->
+
     <!-- Javascript files-->
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
@@ -198,13 +120,8 @@
     <!-- javascript -->
     <script src="js/owl.carousel.js"></script>
     <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $(".fancybox").fancybox({
-                openEffect: "none",
-                closeEffect: "none"
-            });
-    </script>
+    <script src="js/fancybox.js"></script>
+    <script src="js/html-web-component-factory.js"></script>
 </body>
 
 </html>
