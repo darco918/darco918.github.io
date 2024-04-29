@@ -227,6 +227,11 @@ button {
     width: 18%;
     float: left;
 }
+
+.logo a img {
+    width: 60%;
+}
+
 .navbar {
     padding: 20px 30px;
 }
@@ -816,6 +821,5 @@ button {
 }
 
 .padding_video_0{
-    margin-top: 0px; 
+    margin-top: 0px;
 }
-
