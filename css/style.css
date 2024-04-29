@@ -353,7 +353,6 @@ button {
     float: left;
     background-color: #f2f7fd;
     height: auto;
-    padding-bottom: 90px;
 }
 
 .image_2 {
@@ -822,4 +821,10 @@ button {
 
 .padding_video_0{
     margin-top: 0px;
+}
+
+.erasmus_logo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
