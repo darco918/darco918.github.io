@@ -26,18 +26,18 @@ text-decoration:none;
  }
 a:hover{
 text-decoration:none;
-color:#C2C2C2;
+color:#ffeded;
  }
 a:focus{
 text-decoration:none;
-color: #C2C2C2;
+color: #ffeded;
  }
  
 .a_tag:hover{
-color:#C2C2C2!important;
+color:#ffeded!important;
  }
 .a_tag:focus{
-color: #C2C2C2!important;
+color: #ffeded!important;
  }
 
 
