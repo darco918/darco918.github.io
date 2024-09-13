@@ -1,12 +1,88 @@
-/*
-Template Name: Random Theater
-File: Layout CSS
-Author: TemplatesOnWeb
-Author URI: https://www.templateonweb.com/
-Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
-*/
+.audience-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw; /* Full width of the viewport */
+    padding: 0; /* Remove any padding */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    margin-top: 5rem !important;
+    margin-bottom: 3rem !important;
+}
 
-/*********************about****************/
+.image-container {
+    flex: 1;
+    margin-left: 4rem; /* 4rem margin to the right of the image */
+}
+
+.audience-image {
+    width: 100%;
+    height: auto;
+}
+
+.text-container {
+    flex: 1;
+    padding: 20px;
+}
+
+.text-container h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #D2D2D2;
+}
+
+.text-container p {
+    /* font-size: 16px; */
+    /* color: #666; */
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: disc; /* Ensures bullet points appear */
+    margin-left: 20px; /* Adds margin to align bullets properly */
+}
+
+li {
+    margin-bottom: 0.5rem; /* Space between list items */
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    .audience-section {
+        flex-direction: column; /* Stack image and text vertically on tablet */
+    }
+    
+    .image-container {
+        margin-right: 0;
+        margin-bottom: 2rem; /* Add space between image and text */
+        display: flex;
+        justify-content: center; /* Center the image horizontally */
+    }
+
+    .audience-image {
+        width: 80%; /* Add left and right margins by reducing image width */
+    }
+}
+
+@media (max-width: 768px) {
+    .text-container h2 {
+        font-size: 22px;
+    }
+
+    .text-container p {
+        font-size: 14px;
+    }
+
+    .image-container {
+        margin-right: 0;
+        display: flex;
+        justify-content: center; /* Ensure image is centered */
+    }
+
+    .audience-image {
+        width: 80%; /* Adjust width for better spacing */
+    }
+}
+
 .about_pg2r3{
 bottom:-50px; 
 left:60px; 
